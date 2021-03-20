@@ -354,8 +354,36 @@ header {
 }
 
 .what-we-do-item {
+  position: relative;
+
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
+}
+
+.what-we-do-title-wrapper {
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  /*width: 370px;*/
+  height: 70px;
+
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.what-we-do-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
 }
 
 /* =============  STUDIO. END SECTION: WHAT WE DO  ============= */
@@ -462,12 +490,11 @@ header {
   width: 170px;
   height: 90px;
 
-  /* border: 1px solid #afb1b8;*/
   border: 1px solid var(--social-link-color);
   box-sizing: border-box;
   border-radius: 4px;
 }
-/*  --social-link-color*/
+
 .customers-list-icon {
   fill: var(--social-link-color);
 }
