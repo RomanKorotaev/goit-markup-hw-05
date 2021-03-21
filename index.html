@@ -58,9 +58,28 @@
         <section class="hero-backgr">
             <div class="container">
                 <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="order-service-btm" type="button">Заказать услугу</button>
+                <button data-modal-open class="order-service-btm" type="button">Заказать услугу</button>
             </div>
         </section>
+
+        <!-- Это модальное окно для кнопки "Заказать услугу". START-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ipsum quia architecto magnam!
+             Libero architecto neque beatae nam saepe cum suscipit eius sed illo nobis, officiis accusamus,
+             magnam eum laudantium!
+         </p>
+
+         <div class="backdrop is-hidden" data-modal>
+             <div class="modal">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ipsum quia architecto magnam!
+                    Libero architecto neque beatae nam saepe cum suscipit eius sed illo nobis, officiis accusamus,
+                    magnam eum laudantium!
+                </p>
+                <button data-modal-close type="button">Закрыть</button>
+             </div>
+         </div>
+
+
+        <!-- Это модальное окно для кнопки "Заказать услугу"/ END-->
 
         <!-- ADVANTAGES SECTION -->
         <section class="advantages-section">
@@ -436,6 +455,6 @@
                     </footer>
                 
     
-    
+    <script src="./js/modal.js"></script>
 </body>
 </html>
