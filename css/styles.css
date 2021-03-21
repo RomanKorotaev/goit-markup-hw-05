@@ -117,6 +117,8 @@ header {
   color: var(--accent-color);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  animation-duration: 3000ms;
 }
 
 /* НЕ ЗНАЮ НУЖНЫ ЛИ ЭТИ ЭФФЕКТЫ НА ЛОГОТИПЕ, НО НА ВСЯКИЙ СЛУЧАЙ СДЕЛАЛ. ПРИМЕНЯЕТСЯ И В ШАПКЕ И В ФУТЕРЕ*/
